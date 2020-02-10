@@ -18,7 +18,7 @@ Para ejecutar la aplicación dockerizada es necesario seguir los siguientes paso
 <ol>
   <li> Si tiene el proyecto en su maquina, acceda a la ubicacion del mismo por medio del comando CD, de lo contrario clonelo usando <b> sudo git clone https://github.com/lealdaniel00/21 </b> </li>
   <li> Acceda al la ubicacion del proyecto clonado por medio de <b>cd </b>  (cd 21)</li>
-  <li> Compilar el proyecto mediante maven a partir del comando <b>sudo mvn clean package</b> </li>
+  <li> Compilar el proyecto mediante maven a partir del comando (Opcional) <b>sudo mvn clean package</b> </li>
   <li> Construir el contenedor en docker a partir del comando <b>sudo docker build -t 21-container/test .</b> </li>
   <li> Ejecutar el contenedor de la prueba a partir del comando <b>sudo docker run 21-container/test </b> </li>  
 </ol>
