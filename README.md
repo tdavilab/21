@@ -1,5 +1,5 @@
 # 21
-Aplicación de herramientas de automatización para pruebas de comportamiento
+Aplicación de herramientas de automatización para pruebas de comportamiento a partir de cucumber
 
 Gestión Tecnológica - 2019-3
 Integrantes: 
