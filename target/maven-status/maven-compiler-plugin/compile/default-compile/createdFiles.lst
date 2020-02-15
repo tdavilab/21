@@ -1,5 +1,6 @@
-Juego/Run.class
 Juego/Jugador.class
 Juego/Baraja.class
+Juego/Run.class
 StepDefinition/Steps.class
+Juego/DifferentValuesException.class
 Juego/Carta.class

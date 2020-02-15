@@ -5,16 +5,20 @@ import java.util.ArrayList;
 public class Jugador {
 	private String nombre;
 	private int puntaje;
-	ArrayList<Carta> baraja =new ArrayList<Carta>();
+	ArrayList<Carta> baraja;
 	public Jugador(String nombre) {
 		this.nombre = nombre;
 		this.puntaje=0;
+		baraja =new ArrayList<Carta>();
 	}
 	public ArrayList<Carta> getBaraja() {
 		return baraja;
 	}
 	public void setCarta(Carta carta) {
 		baraja.add(carta);
+	}
+	public int getTamanoMano(){
+		return baraja.size();
 	}
 	public void calcularPuntaje() {
 		for (int i=0;i<baraja.size();i++) {
