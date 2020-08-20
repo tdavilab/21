@@ -14,5 +14,5 @@ sudo docker build -t 21-container/test .
 sudo docker run 21-container/test
 ```
 
-Made by:
+**Made by:**
 Thomas Daniel Avila Blenkey, Jonathan Steven Capera Quintana and Daniel David Leal Lara
