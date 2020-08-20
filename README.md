@@ -8,7 +8,7 @@ https://docs.docker.com/install/linux/docker-ce/ubuntu/
 To run the dockerized application, you have to execute the following steps inside the terminal:
 
 ```sh
-git clone https://github.com/tdavilab/cucumber-automated-testing
+git clone https://github.com/tdavilab/cucumber-automated-testing.git
 cd cucumber-automated-testing
 sudo docker build -t 21-container/test .
 sudo docker run 21-container/test
