@@ -13,10 +13,7 @@ Integrantes:
 It is necessary to have docker installed, therefore if you do not have it installed inside your machine and you use Ubuntu, it is advisable to follow the following instructions: </br>
 https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
-</br>
-</br>
-
-To execute the dockerized application, you have to take the following steps inside the terminal:
+To run the dockerized application, you have to take the following steps inside the terminal:
 
 ```sh
 git clone https://github.com/tdavilab/cucumber-automated-testing
